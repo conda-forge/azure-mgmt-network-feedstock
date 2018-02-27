@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-mgmt-network-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-mgmt-network/azure-mgmt-network-{{ version }}.zip
-  md5: ad8c0b76dbf8b259738304c3ca9710ba
+  md5: ddfff3dd31c7329b26f282615b719e7030c5206e56951daae4f180957c1e5201
   
 build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
