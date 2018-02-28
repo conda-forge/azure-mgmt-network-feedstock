@@ -1,27 +1,30 @@
+{% set name = "azure-mgmt-network" %}
 {% set version = "1.7.1" %}
+{% set sha256 = "ddfff3dd31c7329b26f282615b719e7030c5206e56951daae4f180957c1e5201" %}
 
 package:
-  name: azure-mgmt-network
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: azure-mgmt-network-{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-mgmt-network/azure-mgmt-network-{{ version }}.zip
-  md5: e19b92d147fbf527dea73539e39e1b7d
-  
+  fn: {{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  sha256: {{ sha256 }}
+
 build:
-  script: python setup.py install --single-version-externally-managed --record=record.txt
   number: 0
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
-    - azure-mgmt-common
-    
+    - pip
   run:
     - python
-    - azure-mgmt-common
+    - azure-mgmt-common >=1.1
+    - msrestazure >=0.4.20
 
 test:
   imports:
