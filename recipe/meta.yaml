@@ -18,7 +18,7 @@ build:
 
 requirements:
   build:
-    - python
+    - python  # [py3k]
     - setuptools
     - pip
   run:
