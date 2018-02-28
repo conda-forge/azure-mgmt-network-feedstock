@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python
-    - azure-mgmt-common >=1.1
+    - azure-common >=1.1
     - msrestazure >=0.4.20
 
 test:
