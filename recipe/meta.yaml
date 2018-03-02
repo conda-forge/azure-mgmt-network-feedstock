@@ -18,11 +18,11 @@ build:
 
 requirements:
   build:
-    - python  # [py3k]
+    - python >=3
     - setuptools
     - pip
   run:
-    - python
+    - python >=3
     - azure-common >=1.1
     - msrestazure >=0.4.20
 
