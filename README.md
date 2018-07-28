@@ -14,12 +14,15 @@ Summary: Microsoft Azure Network Resource Management Client Library for Python
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-network-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-network-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-mgmt-network-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-mgmt-network-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-network/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-network)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-network/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-network)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--mgmt--network-green.svg)](https://anaconda.org/conda-forge/azure-mgmt-network) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-mgmt-network.svg)](https://anaconda.org/conda-forge/azure-mgmt-network) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-mgmt-network.svg)](https://anaconda.org/conda-forge/azure-mgmt-network) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-mgmt-network.svg)](https://anaconda.org/conda-forge/azure-mgmt-network) |
 
 Installing azure-mgmt-network
 =============================
