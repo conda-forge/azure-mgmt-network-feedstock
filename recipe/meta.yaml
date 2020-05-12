@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "8.0.0" %}
-{% set sha256 = "3bcaf24d962e7a5282b9ae65828e97266721e4746ed76fac5e49b5a7c2222fdf" %}
+{% set version = "10.1.0" %}
+{% set sha256 = "e5ac0ee14b71ab57035c45bef15d3698b0b6026ecafb8320a7c704eb3f6fba3a" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,8 @@ requirements:
   run:
     - python >=3
     - azure-common >=1.1
-    - msrestazure >=0.4.20
+    - msrest >=0.5.0
+    - msrestazure >=0.4.32,<2.0.0
 
 test:
   imports:
@@ -36,7 +37,9 @@ test:
 
 about:
   home: https://github.com/Azure/azure-sdk-for-python
-  license: Apache-2.0
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
   summary: 'Microsoft Azure Network Resource Management Client Library for Python'
 
 extra:
