@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "10.1.0" %}
-{% set sha256 = "e5ac0ee14b71ab57035c45bef15d3698b0b6026ecafb8320a7c704eb3f6fba3a" %}
+{% set version = "10.2.0" %}
+{% set sha256 = "d50c74cdc1c9be6861ddef9adffd3b05afc5a5092baf0209eea30f4439cba2d9" %}
 
 package:
   name: {{ name|lower }}
@@ -40,7 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Microsoft Azure Network Resource Management Client Library for Python'
+  summary: Microsoft Azure Network Resource Management Client Library for Python
 
 extra:
   recipe-maintainers:
