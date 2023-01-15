@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@Maxyme](https://github.com/Maxyme/)
 * [@TomAugspurger](https://github.com/TomAugspurger/)
+* [@timsnyder](https://github.com/timsnyder/)
 
