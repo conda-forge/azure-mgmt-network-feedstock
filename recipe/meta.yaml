@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "10.2.0" %}
-{% set sha256 = "d50c74cdc1c9be6861ddef9adffd3b05afc5a5092baf0209eea30f4439cba2d9" %}
+{% set version = "17.0.0" %}
+{% set sha256 = "3694f2675e152afccb1588a6cc7bb4b4795d442a4e5d7082cdf1f4e32a779199" %}
 
 package:
   name: {{ name|lower }}
@@ -17,15 +17,15 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - python >=3
+  host:
+    - python >=3.7
     - setuptools
     - pip
   run:
     - python >=3
-    - azure-common >=1.1
-    - msrest >=0.5.0
-    - msrestazure >=0.4.32,<2.0.0
+    - azure-common >=1.1,<1.2
+    - msrest >=0.7.1
+    - azure-mgmt-core >=1.3.2,<2.0.0
 
 test:
   imports:
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - timsnyder
     - Maxyme
+    - TomAugspurger
