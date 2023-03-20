@@ -1,11 +1,11 @@
-About azure-mgmt-network
-========================
+About azure-mgmt-network-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-network-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-network-feedstock/blob/main/LICENSE.txt)
 
 Summary: Microsoft Azure Network Resource Management Client Library for Python
 
@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@Maxyme](https://github.com/Maxyme/)
 * [@TomAugspurger](https://github.com/TomAugspurger/)
+* [@timsnyder](https://github.com/timsnyder/)
 
