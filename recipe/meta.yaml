@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "23.0.0" %}
-{% set sha256 = "d9a878b41a2efe28ba6bba339da3ae2d4b7bd038994f5b45a819360c01842927" %}
+{% set version = "23.0.1" %}
+{% set sha256 = "55191a68236fbb3392fef47d882ba6f96688a811bd63edec46ab8d6363a78930" %}
 
 package:
   name: {{ name|lower }}
