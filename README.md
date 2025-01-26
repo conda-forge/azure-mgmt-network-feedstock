@@ -7,7 +7,7 @@ Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
 
-Summary: Microsoft Azure Network Resource Management Client Library for Python
+Summary: Microsoft Azure Network Management Client Library for Python
 
 Current build status
 ====================
