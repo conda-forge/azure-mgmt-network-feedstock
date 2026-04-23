@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "23.0.0" %}
-{% set sha256 = "d9a878b41a2efe28ba6bba339da3ae2d4b7bd038994f5b45a819360c01842927" %}
+{% set version = "25.0.0" %}
+{% set sha256 = "ad93db91440914878d4923d61d32bbf483567915f9f8627ba3b98430b87227d1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
