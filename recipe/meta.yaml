@@ -1,16 +1,16 @@
 {% set name = "azure-mgmt-network" %}
-{% set version = "28.1.0" %}
+{% set version = "32.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/azure_mgmt_network-{{ version }}.tar.gz
-  sha256: 8c84bffb5ec75c6e0244e58ecf07c00d5fc421d616b0cb369c6fe585af33cf87
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/azure_mgmt_network-{{ version }}.tar.gz
+  sha256: cd5707de7bac945c5407047cd764e64cc4b4ce8f51d1f4fe32bfc204d9229093
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
